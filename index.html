@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Elvis Hoang's MIS, web development, and cybersecurity portfolio.">
+  <title>Home | Elvis Hoang</title>
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="vendor/bootstrap.bundle.min.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="navbar navbar-expand-lg border-bottom" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">EH<span class="brand-dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience / Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-3"><button id="themeToggle" class="btn btn-outline-primary btn-sm" type="button" aria-pressed="false" hidden>Dark mode</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main id="main" class="container py-5">
+    <section class="row align-items-center g-5 hero" aria-labelledby="homeTitle">
+      <div class="col-lg-8">
+        <p class="eyebrow">MIS STUDENT / ASPIRING CYBERSECURITY PROFESSIONAL</p>
+        <h1 id="homeTitle" class="display-3 fw-bold">Hi, I'm Elvis Hoang<span class="brand-dot">.</span></h1>
+        <p class="lead mt-4">Learning how technology works. Helping people use it.</p>
+        <p>I'm a Management Information Systems student at the University of Oklahoma with an interest in cybersecurity and IT support. Through my coursework, I'm building skills in programming, web development, databases, and networking. I also explore security tools in a home lab using virtual machines and Wazuh. My experience as a restaurant server has taught me to communicate clearly, solve problems, and stay calm during busy shifts.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a class="btn btn-primary btn-lg" href="projects.html">View my projects <span aria-hidden="true">→</span></a>
+          <a class="btn btn-outline-primary btn-lg" href="contact.html">Get in touch</a>
+        </div>
+      </div>
+      <div class="col-lg-4 text-center">
+        <img class="avatar img-fluid" src="images/avatar.svg" alt="Elvis Hoang's EH initials avatar" width="320" height="320">
+        <p class="small text-body-secondary mt-3">Based in Norman, Oklahoma</p>
+      </div>
+    </section>
+    <section class="mt-5 pt-4" aria-labelledby="interestsTitle">
+      <p class="eyebrow">WHERE I'M HEADED</p>
+      <h2 id="interestsTitle" class="mb-4">Technology with a people-first approach</h2>
+      <div class="row g-4">
+        <div class="col-md-4"><article class="card h-100"><div class="card-body"><span class="section-number">01</span><h3 class="h5 mt-3">Cybersecurity</h3><p class="mb-0">Understand security monitoring and build practical skills through hands-on lab work.</p></div></article></div>
+        <div class="col-md-4"><article class="card h-100"><div class="card-body"><span class="section-number">02</span><h3 class="h5 mt-3">IT support</h3><p class="mb-0">Help people troubleshoot technology and explain solutions in a way they can follow.</p></div></article></div>
+        <div class="col-md-4"><article class="card h-100"><div class="card-body"><span class="section-number">03</span><h3 class="h5 mt-3">Web development</h3><p class="mb-0">Create simple, responsive websites that make information easy to find.</p></div></article></div>
+      </div>
+    </section>
+  </main>
+  <footer class="border-top py-4 mt-auto">
+    <div class="container d-flex flex-wrap justify-content-between gap-2">
+      <span>© <span id="year">2026</span> Elvis Hoang</span>
+      <span>MIS student · University of Oklahoma</span>
+    </div>
+  </footer>
+</body>
+</html>
