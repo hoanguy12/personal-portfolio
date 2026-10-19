@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Cybersecurity Home Lab",
+    "category": "Security",
+    "description": "A personal environment for exploring security monitoring with an Ubuntu server, a Windows virtual machine, and Wazuh running in Docker.",
+    "technologies": [
+      "Wazuh",
+      "Ubuntu",
+      "Docker",
+      "VirtualBox",
+      "VMware"
+    ]
+  },
+  {
+    "title": "Campus Bites Website",
+    "category": "Web",
+    "description": "A classroom restaurant-page makeover using Bootstrap to improve organization, navigation, and responsive layout.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ]
+  },
+  {
+    "title": "Assignment Tracker",
+    "category": "Programming",
+    "description": "A console application for practicing assignment management with arrays, lists, dictionaries, and menu-based input.",
+    "technologies": [
+      "C#",
+      "Lists",
+      "Dictionaries"
+    ]
+  },
+  {
+    "title": "Shipping Calculator",
+    "category": "Programming",
+    "description": "A coursework console application that practices input, conditional logic, and formatted output while calculating shipping charges.",
+    "technologies": [
+      "C#",
+      "Conditional logic"
+    ]
+  },
+  {
+    "title": "Campus Connections",
+    "category": "Web",
+    "description": "A campus events page built during an HTML and CSS exercise, with custom styling for navigation and event content.",
+    "technologies": [
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "title": "Interactive Personal Portfolio",
+    "category": "Web",
+    "description": "This five-page portfolio loads projects from JSON and includes category filtering, keyword search, and a saved theme preference.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "JSON"
+    ]
+  }
+]
